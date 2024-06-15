@@ -37,7 +37,7 @@ class Cairo < Formula
 
   uses_from_macos "zlib"
 
-  patch do
+  patch :p1 do
     url "https://patchwork.ozlabs.org/project/buildroot/patch/20231116145113.1828682-1-thomas.devoogdt@barco.com/raw/"
     sha256 "8a80565ad53f868e62749ed5402243cd34e9bc5de64705196febdc8aa4298635"
   end
